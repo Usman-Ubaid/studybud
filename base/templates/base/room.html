@@ -140,7 +140,7 @@
           </div>
         </div>
         <div class="room__message">
-          <form method="POST" action="{% url 'room' room.id %}">
+          <form method="POST" action="">
             {%csrf_token%}
             <input
               type="text"
